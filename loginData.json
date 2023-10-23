@@ -1,0 +1,34 @@
+{
+  "env": {
+    "fat": "https://sso.my-fat.gaoding.com/api/oauth/token/common/v2",
+    "stage": "https://ums-stage.gaoding.com/connect/oauth/tokens"
+  },
+  "method": "POST",
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "x-biz-code": "1",
+    "x-endpoint": "8"
+  },
+  "data_org_id": "8015976288106990629",
+  "data_org_code": "77540w",
+  "qy_id": "9020834920865221663",
+  "data": {
+    "fat": {
+      "grant_type": "account",
+      "account": "18218080001",
+      "password": "000000",
+      "device_id": "7da458070e57b98e11d00d9286f23537",
+      "client_id": "qiye"
+    },
+    "stage": {
+      "grant_type": "password",
+      "client_id": "gaodingx",
+      "client_secret": "7da458070e57b98e11d00d9286f23537",
+      "os": "mac os",
+      "mobile_area_code": "86",
+      "mobile": "19900009898",
+      "password": "000000"
+    }
+  }
+}

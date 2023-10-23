@@ -1,0 +1,50 @@
+{
+  "env": {
+    "fat": "https://my-fat.gaoding.com",
+    "stage": "https://stage.gaoding.com"
+  },
+  "method": "POST",
+  "headers": {
+    "authorization": "Bearer eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1bXMiLCJzdWIiOjUzNjg3MDg3OSwiYXVkIjoiZ2FvZGluZ3giLCJleHAiOjE2ODY4NTI1NzcsImp0aSI6IjljNjhkZDc0YTZkMDEzYWI4OWM4MmZiNTIxZDRmNWMxZGZiM2M5MjcifQ.hsPgml147mzIT_YoB9m3p-ieI8x3Yr9Fs1vUyxWGFqE",
+    "content-type": "application/json",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "x-business-id": "1",
+    "x-channel-id": "8",
+    "x-project-type": "FREE"},
+  "text": {
+      "path":"/api/gdesign/tool/ai/text",
+      "data": {
+         "prompt": "我是一名小红书博主，现在需要写一篇文章，请为我提供5个爆款选题，要求选题能够引起用户的兴趣和互动，并分析选题的可行性。请围绕以下主题进行构思：\n一只狐狸",
+         "prompt_template": "我是一名小红书博主，现在需要写一篇文章，请为我提供5个爆款选题，要求选题能够引起用户的兴趣和互动，并分析选题的可行性。请围绕以下主题进行构思：\n%USER_INPUT%",
+         "scene_code": "xiaohongshu-inspire",
+         "scene_name": "小红书灵感选题",
+         "user_prompt": "一只狐狸"
+      }
+  },
+  "image": {
+    "path": "/api/gdesign/tool/aigc/image",
+    "data": {
+      "prompt":"一个巨大的机器人,发光的机甲,破损,断臂,伤痕,破损的街道,倒塌的楼房,废土风格,丰富的细节,未来城市街道,电影光线,戏剧性画面,高质量画作,错综复杂,超详细,三分法则,专业照明,虚幻引擎,幻想,环太平洋,概念艺术,锐焦,插图,8k",
+      "num":1,
+      "style_code":"HouTuCG",
+      "cn_code":"",
+      "project_type":"AI_IMAGE",
+      "output_imgw":768,
+      "output_imgh":768,
+      "pic_quality":"STANDARD"
+    }
+  },
+  "material": {
+    "path": "/api/gdesign/tool/aigc/image",
+    "data": {
+      "prompt":"一个巨大的机器人,发光的机甲,破损,断臂,伤痕,破损的街道,倒塌的楼房,废土风格,丰富的细节,未来城市街道,电影光线,戏剧性画面,高质量画作,错综复杂,超详细,三分法则,专业照明,虚幻引擎,幻想,环太平洋,概念艺术,锐焦,插图,8k",
+      "num":1,
+      "style_code":"HouTuCG",
+      "cn_code":"",
+      "project_type":"AI_IMAGE",
+      "output_imgw":768,
+      "output_imgh":768,
+      "pic_quality":"STANDARD"
+    }
+  }
+}
